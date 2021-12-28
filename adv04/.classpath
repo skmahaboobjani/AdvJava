@@ -11,5 +11,6 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="output"/>
+	<classpathentry kind="lib" path="C:/Oracle/Oracle_Home_12.1/wlserver/server/lib/weblogic.jar"/>
+	<classpathentry kind="output" path="OutputFolder"/>
 </classpath>
