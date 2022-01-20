@@ -12,8 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/HeadersServlet")
 public class HeadersServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-    
+	private static final long serialVersionUID = 1L; 
 	public HeadersServlet() {
         super();
     }
@@ -33,8 +32,7 @@ public class HeadersServlet extends HttpServlet {
 			out.println("<tr>");
 			out.println("<td>"+headerName+"</td> ");
 			out.println("<td>"+headerValue+"</td> ");
-			out.println("</tr>");
-			
+			out.println("</tr>");	
 		}
 		out.println("</table></body></html>");	
 	}
