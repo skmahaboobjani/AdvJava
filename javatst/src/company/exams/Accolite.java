@@ -40,7 +40,7 @@ public class Accolite {
 		 * int n = 5; int m = 4; String s = "abaca"; int[] x = { 1, 1, 3, 4 }; int[] y =
 		 * { 2, 3, 4, 5 };
 		 *
-		 * 
+		  
 		 */
 		System.out.println(" Result ---> " + beaty(n, m, s, x, y));
 	}
